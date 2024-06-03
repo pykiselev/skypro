@@ -1,5 +1,6 @@
 from src.masks import convert_number_card_to_mask, convert_account_to_mask
 def masking_card_or_acc(info_card_or_acc: str) -> str:
+    """Функция маскировки номера карты/счета"""
     list_info = info_card_or_acc.split(" ")
     len_list = len(list_info)
     if len(list_info[len_list - 1]) == 16:
@@ -9,4 +10,5 @@ def masking_card_or_acc(info_card_or_acc: str) -> str:
     return " ".join(list_info)
 
 def format_date(date: str) -> str:
+    """Функция форматирования даты"""
     return f"{date[8:10]}.{date[5:7]}.{date[:4]}"
