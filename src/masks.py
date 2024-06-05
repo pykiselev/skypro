@@ -1,10 +1,14 @@
 def convert_number_card_to_mask(card_number: str) -> str:
     """Функция принимает на вход номер карты и возвращает ее маску."""
-    return f"{card_number[0:4]} {card_number[5:7]}** **** {card_number[-4:]}"
+    if card_number == "":
+        return ""
+    return f"{card_number[0:4]} {card_number[4:6]}** **** {card_number[-4:]}"
 
 
 def convert_account_to_mask(account: str) -> str:
     """Функция принимает на вход номер счета и возвращает его маску."""
+    if account == "":
+        return ""
     return f"**{account[-4:]}"
 
 
