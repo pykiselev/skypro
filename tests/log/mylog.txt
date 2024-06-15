@@ -1,0 +1,44 @@
+my_function ok. Result: 0.5
+my_function error: ZeroDivisionError. Inputs: (1, 0), {}
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function error: TypeError. Inputs: (1.1, '0.1'), {}
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function ok. Result: None
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
+my_function ok. Result: 3
+my_function error: ValueError. Inputs: (1.1, 0.1), {}
