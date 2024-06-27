@@ -1,0 +1,4 @@
+my_function ok. Result: 0.5
+my_function error: ZeroDivisionError. Inputs: (1, 2), {}
+my_function error: ZeroDivisionError. Inputs: (1, 0), {}
+my_function error: ZeroDivisionError. Inputs: (1, 0), {}

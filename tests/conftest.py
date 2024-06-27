@@ -96,3 +96,4 @@ def test_transactions_info():
             "to": "Счет 14211924144426031657",
         },
     ]
+
