@@ -46,7 +46,6 @@ def result_if_reverse_false():
         {"id": 41428829, "state": "EXECUTED", "date": "2019-07-03T18:35:29.512364"},
     ]
 
-
 @pytest.fixture
 def test_transactions_info():
     return [
@@ -96,3 +95,4 @@ def test_transactions_info():
             "to": "Счет 14211924144426031657",
         },
     ]
+

@@ -21,3 +21,4 @@ def test_sort_by_date_if_reverse_false(test_transactions, result_if_reverse_fals
 
 def test_sort_by_date_if_reverse_true(test_transactions, result_if_reverse_true):
     assert sort_by_date(test_transactions, True) == result_if_reverse_true
+

@@ -14,4 +14,6 @@ def masking_card_or_acc(info_card_or_acc: str) -> str:
 
 def format_date(date: str) -> str:
     """Функция форматирования даты"""
+    if date == "":
+        return ""
     return f"{date[8:10]}.{date[5:7]}.{date[:4]}"

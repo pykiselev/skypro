@@ -20,4 +20,4 @@ test_list_dict = [
 ]
 
 print(filter_by_state(test_list_dict, "CANCELED"))
-print(sort_by_date(test_list_dict, True))
+print(sort_by_date(test_list_dict))

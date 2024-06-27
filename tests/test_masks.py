@@ -23,3 +23,4 @@ def test_convert_number_card_to_mask(string, expected_result):
 )
 def test_convert_account_to_mask(string, expected_result):
     assert convert_account_to_mask(string) == expected_result
+
